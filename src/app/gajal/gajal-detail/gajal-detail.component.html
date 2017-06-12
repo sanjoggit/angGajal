@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <div class="card mb-3">
+      <img [src]="gajal.image" alt="{{gajal.title}}" class="img-responsive">
+      <div appDropdown>
+        <i style="cursor: pointer" class="fa fa-cog pull-right dropdown-toggle" aria-hidden="true"></i>
+        <ul class="dropdown-menu">
+          <li><a style="cursor: pointer" (click)="onEditGajal()">Edit</a></li>
+          <li><a style="cursor: pointer" (click)="deleteGajal()">Delete</a></li>
+        </ul>
+      </div>
+      <div class="card-block">
+        <h3 class="card-title">{{gajal.title}}</h3>
+        <p class="card-text">{{gajal.description}}</p>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.row{
+  background-color: darkslategrey;
+  margin-top: -20px;
+  margin-bottom: 20px;
+
+}
+img{
+  -webkit-box-shadow: 10px 10px 66px 12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 66px 12px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 66px 12px rgba(0,0,0,0.75);
+  margin-top: 30px;
+}
+
+h3, p{
+  color: aliceblue;
+}
+i{
+  color: white;
+  margin-top: -20px;
+  position: relative;
+  font-size: 20px;
+}
+
+.dropdown-menu{
+  position: relative;
+  float: right;
+}

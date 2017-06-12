@@ -1,0 +1,7 @@
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
+.posted{
+  background-color: green;
+  color: white;
+}
